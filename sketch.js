@@ -4,7 +4,7 @@
 // March 2022
 
 let ip;
-let sammyjenas = 'Sammy Jenas';
+let sammyjenas;
 let font1;
 
 function getIP() {
@@ -18,6 +18,7 @@ function setup() {
   font1 = loadFont('AcPlus_IBM_VGA_8x16.ttf');
   textFont(font1);
   getIP();
+  sammyjenas = 'Sammy Jenas';
 }
 
 function windowResized() {
